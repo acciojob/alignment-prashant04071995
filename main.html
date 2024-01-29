@@ -1,16 +1,158 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Assignment 3</title>
+  <style>
+    body {
+      text-align: center;
+    }
 
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      border: 1px solid black;
+      border-spacing: 1px;
+      width: 50%;
+      margin: 20px auto;
+    }
+
+    td {
+      padding: 1px;
+    }
+
+    .middle {
+      background-color: #f0f0f0; /* Light Gray */
+    }
+ .left{
+      text-align: left;
+
+ }
+    .center {
+      text-align: center;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .blue {
+      background-color: blue;
+      color: white;
+    }
+
+    #t-image {
+      background-color: green;
+    }
+
+TD{
+    width: 150PX;
+    height: 20PX;
+}
+th{
+    width: 150PX;
+    height: 50PX;
+}
+
+
+
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <thead> <h1>HTML Assignment #3
+</h1></thead>
+
+  <table border="1" id="table-1">
+    <tbody>
+      <tr>
+        <td class ="left" id="t11">left</td>
+        <td class ="center" id="t12">center</td>
+        <td class ="right" id="t13">right</td>
+      </tr>
+        <tr>
+        <td class ="left" id="t11">left</td>
+        <td class ="center" id="t12">center</td>
+        <td class ="right" id="t13">right</td>
+      </tr>
+       <tr>
+        <td class ="left" id="t11">left</td>
+        <td  class ="center" id="t12">center</td>
+        <td class ="right" id="t13">right</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <!-- Table 2 -->
+   <table border="1"  id="table-2">      
+     <tr>
+        <td colspan="6"  id="t21" > </td>      
+      </tr>
+   <tr>
+        <td rowspan="4"> </td>
+        <td></td>
+        <td></td>
+         <td></td>
+          <td></td>
+           <td></td>
+      </tr>
+  <tr>
+        <td > </td>
+        <td rowspan="2" colspan="3"></td>
+        <td ></td>    
+      </tr>
+  <tr>
+        <td > </td>
+        <td ></td>
+  </tr>
+  <tr>
+        <td > </td>
+        <td></td>
+        <td></td>
+        <td></td>
+       <td></td>
+      </tr>
+  <tr>
+  <td colspan="6"> </td>   
+  </tr>
+
+  </table>
+
+  <!-- Table 3 -->
+
+<table class="middle" id="table-3">
+    <tbody>
+      <tr class="green">
+        <td colspan="2">
+        
+        </td>
+      </tr>
+      <!-- Add more rows and cells as needed -->
+     
+
+       
+        <tr>
+          <td> <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="basketball player" style="width: 50%;">
+</td>
+        </tr>
+ <tr class="blue">
+        <td colspan="6"></td></tr>
+
+        
+      
+        <!-- Add more cells as needed -->
+      </tr>
+    </tbody>
+  </table>
 
 </body>
-
 </html>
+
